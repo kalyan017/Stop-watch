@@ -44,8 +44,8 @@ stop.addEventListener("click", () => {
 reset.addEventListener("click", () => {
     is_running = false
     clearInterval(timer)
+    ms=0
     m=0
     s=0
-    ms=0
-    display.textContent = "00:00:00"
+    display.innerHTML = "00:00:00"
 })
